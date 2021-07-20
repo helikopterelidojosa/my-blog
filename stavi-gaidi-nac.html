@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p id="luksofors-stavi" 
+style="color:red; font-size:60px; display:block" ><b>Stāvi</b></p>
+
+<p id="luksofors-gaidi" 
+style="color:orange; font-size:60px; display:none" ><b>Gaidi</b></p>
+
+<p id="luksofors-nac" 
+style="color:green; font-size:60px; display:none" ><b>Nāc</b></p>
+
+
+<button onclick="stavi()">stāvi</button>
+<button onclick="gaidi()">gaidi</button>
+<button onclick="nac()">nāc</button>
+
+
+<script>
+
+function stavi(){
+document.getElementById("luksofors-stavi").style.display="block";
+document.getElementById("luksofors-gaidi").style.display="none";
+document.getElementById("luksofors-nac").style.display="none";
+}
+function gaidi(){
+document.getElementById("luksofors-stavi").style.display="none";
+document.getElementById("luksofors-gaidi").style.display="block";
+document.getElementById("luksofors-nac").style.display="none";
+}
+
+function nac(){
+document.getElementById("luksofors-stavi").style.display="none";
+document.getElementById("luksofors-gaidi").style.display="none";
+document.getElementById("luksofors-nac").style.display="block";
+}
+
+</script>
+
+</body>
+</html>

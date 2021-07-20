@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>optiskie aplishi</title>
+</head>
+<body>
+
+<canvas id="myCanvas" width="200" height="200"
+style="border:2px solid black;">
+
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+radius = 100;
+
+
+for (i=0;i<20;i++){
+ctx.beginPath();
+ctx.arc(100,100,radius,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(0,0,radius,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(200,0,radius,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(0,200,radius,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(200,200,radius,0,2*Math.PI);
+ctx.stroke();
+
+radius -=5;
+
+
+
+}
+
+
+
+</script> 
+
+</body>
+</html>
