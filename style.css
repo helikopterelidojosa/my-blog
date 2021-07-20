@@ -2,7 +2,7 @@ a{
   background-color: aliceblue;
 
     color: white;
-    border: 2px solid white;
+    border: 2px solid green;
 
     border-radius: 15px;
     text-decoration: none;
@@ -10,7 +10,7 @@ a{
 
 /* unvisited link */
     a:link {
-    color: white;
+    color: green;
   }
   
   /* visited link */
