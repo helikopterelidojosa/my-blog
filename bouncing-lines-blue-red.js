@@ -86,7 +86,7 @@ ctx.lineWidth = 5;
 ctx.stroke();
 
 ctx.strokeStyle = "yellow"
-ctx.lineWidth = 2;
+ctx.lineWidth = 1;
 ctx.strokeRect(x,y,xx-x,yy-y);
 
 
@@ -99,7 +99,7 @@ ctx.lineWidth = 5;
 ctx.stroke();
 
 ctx.strokeStyle = "yellow"
-ctx.lineWidth = 2;
+ctx.lineWidth = 1;
 ctx.strokeRect(ax,ay,axx-ax,ayy-ay);
 
 x += dx;
