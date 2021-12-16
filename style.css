@@ -23,12 +23,14 @@ a{
     color: red;
     background-color: white;
     border-color: red;
+    font-size:20px;
   }
   
   /* selected link */
   a:active {
     color: blue;
     border-color: blue;
+    font-size:20px;
   }
 
 
